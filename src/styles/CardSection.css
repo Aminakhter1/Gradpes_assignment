@@ -1,0 +1,31 @@
+/* App.css */
+.card-hover {
+    transition: transform 0.3s, border-color 0.3s;
+    border: 2px solid transparent;
+    
+  }
+  .card-hover:hover {
+    transform: translateY(-5px);
+    border-radius:10px 10px 10px 50px;
+    box-shadow:4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .icon {
+    font-size: 2rem;
+    color: #ff5722; /* Customize icon color */
+  }
+  .progress {
+    height: 5px;
+  }
+  .cardbtn{
+    display:inline-block;
+    border:1px solid black;
+    border-radius:20px 20px 20px 20px;
+    padding:0.5rem;
+  }
+  .cardbtn:hover{
+    background-color: aqua;
+  }
+  .card-title{
+    color:red;
+  }
+  
